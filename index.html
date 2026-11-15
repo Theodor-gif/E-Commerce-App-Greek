@@ -1,0 +1,160 @@
+<!-- Καλως ορισατε στο πρώτο βίντεο για την δημιουργία της πρώτης σελίδας -->
+<!-- Έχω ήδη δημιουργήσει κάποιες σημειώσεις -->
+<!-- Θα φτίαξουμε πρώτα την δομή της HTML5 -->
+<!doctype html>
+<!-- Με αυτο δυλώνουμε οτι θα χρησιμοποιήσουμε HTML5 -->
+<html lang="en">
+  <!-- Αυτή είναι η πρώτη ετικέτα μας στο HTML5 αρχείο μας -->
+  <head>
+    <!-- Στο head περιέχονται πληροφορίες για τον Browser, γνωστό ώς metadata. Φυσικά αυτά μπορεί να τα δεί μόνο ο Browser.-->
+    <meat charset="UTF-8" />
+    <meta
+      name="viewport"
+      content=""
+      width="device"
+      ="width,"
+      initial-scale="1.0"
+    />
+    <!-- Αυτό χρησιμοποιείται για την αλλαγή εμφάνισης σε κάθε ανάλυση εικόνας -->
+    <link rel="stylesheet" href="./style/index-style.css" />
+    <!-- Με το link συνδέουμε το CSS αρχειο που θα έχουμε για αυτήν την σελίδα -->
+    <title>Fashion Store</title>
+    <!-- Χρησιμοποιείται για να ορίσουμε τον τίτλο της ιστοσελίδας μας -->
+  </head>
+  <body>
+    <h2 id="logo">Fashion Store</h2>
+    <nav id="navbar-container">
+      <!-- Χρησιμοποιώ το nav για να δημιουργήσω έναν πλοηγό -->
+      <ul id="list-container">
+        <li>HOME</li>
+        <li>
+          <a id="nav-tag" href="./pages/product-page.html" target="_self"
+            >PRODUCTS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header id="header-container">
+      <h1>Dress the Moment</h1>
+      <!-- 
+      Ta header titles είναι τα εξής => h1, h2, h3, h4, h5 και h6
+      Όσο μεγαλήτερος ο αριθμός τόσο μικρότερα τα γράμματα.
+      Σε κάθε σελίδα σωστό είναι να χρησιμοποιούμε ένα h1 και καθώς κάτι είναι πιο "ασύμαντο" απο κάποιο άλλο βάζουμε όλο και μικρότερο αριθμό.
+      -->
+      <p>From golden hour to possible, find the look that fits.</p>
+      <button id="header-btn" type="button">Shop the collection</button>
+    </header>
+    <main>
+      <section class="section-fashion-container">
+        <img
+          src="./assets/banners/banner-image-2.jpg"
+          alt="banner-icon-one"
+          width="200"
+          title="banner-icon"
+        />
+        <!-- 
+        Με την ετικέτα img μπορούμε να εισάγουμε μια εικόνα.
+        src => Είναι απο το source και βάζουμε το path της εικόνας που θέλουμε.
+        alt => Alternative title χρησιμοποιήται αντί της εικόνας αν για κάποιο λόγο δεν εμφανιστή και για την ανάγνωση προς τους τυφλούς .
+        width / height => Καθορίζουμε το μέγεθος της εικόνας, αλλα καλήτερα να το κάνουμε με το CSS3.
+        title => Όταν κάνουμε hover το ποντίκι να εμφανίζεται ο τίτλος.
+        Όλα αυτα τα εσωτερικά μιας ετικέτας ονομάζονται attributes.
+        -->
+        <article>
+          <h3>Golden Hour Linen</h3>
+          <p>
+            Made for slow evenings and warm sunsets. This lightweight white
+            linen shirt has a soft, textured weave and relaxed rolled sleeves,
+            so it stays comfortable and looks effortless. Pair it with round
+            retro sunglasses and you have a laid-back summer look that works
+            from the city bridge to the beach bar.
+          </p>
+        </article>
+      </section>
+      <section class="section-fashion-container">
+        <article>
+          <h3>Poolside Black</h3>
+          <p>
+            Keep it simple, keep it bold. This black twist-front bandeau bikini
+            with gold ring details is a swimwear classic with a modern touch.
+            Add a graphic beach towel and a pair of tinted aviators, and you are
+            ready for every sunny day by the pool.
+          </p>
+        </article>
+        <img
+          src="./assets/banners/banner-image-3.jpg"
+          alt="banner-icon-two"
+          width="200"
+        />
+      </section>
+      <section class="section-fashion-container">
+        <img
+          src="./assets/banners/banner-image-4.jpg"
+          alt="banner-icon-three"
+          width="200"
+        />
+        <article>
+          <h3>Vintage Finds</h3>
+          <p>
+            Every piece has a story. Browse our curated collection of
+            one-of-a-kind vintage clothing and accessories, from cozy cable-knit
+            cardigans to retro bags and unique details you will not find
+            anywhere else. Choose second-hand, stand out from the crowd, and
+            make sustainable fashion your signature style.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer id="footer-container">
+      <section id="footer-infos-container">
+        <div>
+          <h4 class="infos-title">MENU</h4>
+          <ul class="info-list">
+            <li>NEW RELEASES</li>
+            <li>FOOTWEAR</li>
+            <li>ACCESSRIES</li>
+            <li>SHOP ALL</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="infos-title">HELP</h4>
+          <ul class="info-list">
+            <li>SEARCH</li>
+            <li>CONTACT US</li>
+            <li>TERM OF SERVICE</li>
+            <li>REFUND POLICY</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="infos-title">NAVIGATION</h4>
+          <ul class="info-list">
+            <li><a>HOME</a></li>
+            <li><a>PRODUCTS</a></li>
+          </ul>
+        </div>
+      </section>
+      <form id="footer-form">
+        <!-- Η ετικέτα form την βάζουμε για να εισάγουμε μια φόρμα εποικηνωνίας -->
+        <h4>NEWSLETTER</h4>
+        <label for="email-user"
+          >SIGN UP FOR EXCLUSIVE OFFERS, ORIGINAL STORIES, EVENTS AND
+          MORE.</label
+        >
+        <input id="email-user" type="email" name="email-user" />
+        <button type="button">Sign up</button>
+      </form>
+    </footer>
+    <div id="copy-container"><small>&copy; 2026 Fashion Store</small></div>
+    <!-- Το small χρησιμοποιείται κυρίως για copyright, γιατί έχει μια συγκεκριμένη μικρή γραμματοσειρά -->
+  </body>
+</html>
+
+<!-- Όλα όσα έχω χρησιμοποιήσει τα έχω γράψει στο code-note,txt -->
+
+<!-- 
+
+Για όλα που είδατε και για περισσότερες λεπτομέριες θα έχω ανεβάσει το project στο GitHub
+Ευχαριστώ πολύ που το είδατε !!
+Τα λέμε στο επόμενο.
+
+-->

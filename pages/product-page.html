@@ -1,0 +1,148 @@
+<!-- Εδώ θα φτιάξουμε την Products page -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content=""
+      width="device"
+      ="width,"
+      initial-scale="1.0"
+    />
+    <link rel="stylesheet" href="../style/product-page-style.css" />
+    <!-- Με αυτό συνδέουμε το CSS αρχείο μας με το HTML αρχείο -->
+    <title>Fashion Store Products</title>
+  </head>
+  <body>
+    <h2 id="logo">Fashion Store</h2>
+    <nav id="navbar-container">
+      <ul id="list-container">
+        <li><a id="nav-tag" href="../index.html" target="_self">HOME</a></li>
+        <li>PRODUCTS</li>
+      </ul>
+    </nav>
+    <header id="header-container">
+      <h1>Dress the Moment</h1>
+      <p>From golden hour to possible, find the look that fits.</p>
+      <button id="header-btn" type="button">Shop the collection</button>
+    </header>
+    <main id="main-container">
+      <section class="products-container">
+        <div class="product-container">
+          <img
+            src="../assets/clothes/clothe-icon-1.png"
+            alt="clothe-one"
+            title="clothe-one"
+            height="100"
+          /><!-- Το src είναι το source, το alt είναι το alternative text αν η εικόνα δεν εμφανιστεί, το title είναι για το hover και το width or height για το μέγεθος -->
+          <div class="product-detail-container">
+            <h3>Clothe 1</h3>
+            <p>20.00 &euro;</p>
+          </div>
+        </div>
+        <div class="product-container">
+          <img
+            src="../assets/clothes/clothe-image-2.png"
+            alt="clothe-two"
+            title="clothe-two"
+            height="100"
+          />
+          <div class="product-detail-container">
+            <h3>Clothe 2</h3>
+            <p>20.00 &euro;</p>
+          </div>
+        </div>
+        <div class="product-container">
+          <img
+            src="../assets/clothes/clothe-image-3.png"
+            alt="clothe-three"
+            title="clothe-three"
+            height="100"
+          />
+          <div class="product-detail-container">
+            <h3>Clothe 3</h3>
+            <p>20.00 &euro;</p>
+          </div>
+        </div>
+      </section>
+      <section class="products-container">
+        <div class="product-container">
+          <img
+            src="../assets/clothes/clothe-image-4.png"
+            alt="clothe-four"
+            title="clothe-four"
+            height="100"
+          />
+          <div class="product-detail-container">
+            <h3>Clothe 4</h3>
+            <p>20.00 &euro;</p>
+          </div>
+        </div>
+        <div class="product-container">
+          <img
+            src="../assets/clothes/clothe-image-5.png"
+            alt="clothe-five"
+            title="clothe-five"
+            height="100"
+          />
+          <div class="product-detail-container">
+            <h3>Clothe 5</h3>
+            <p>20.00 &euro;</p>
+          </div>
+        </div>
+        <div class="product-container">
+          <img
+            src="../assets/clothes/clothe-image-6.png"
+            alt="clothe-six"
+            title="clothe-six"
+            height="100"
+          />
+          <div class="product-detail-container">
+            <h3>Clothe 6</h3>
+            <p>20.00 &euro;</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer-container">
+      <section id="footer-infos-container">
+        <div>
+          <h4 class="infos-title">MENU</h4>
+          <ul class="info-list">
+            <li>NEW RELEASES</li>
+            <li>FOOTWEAR</li>
+            <li>ACCESSRIES</li>
+            <li>SHOP ALL</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="infos-title">HELP</h4>
+          <ul class="info-list">
+            <li>SEARCH</li>
+            <li>CONTACT US</li>
+            <li>TERM OF SERVICE</li>
+            <li>REFUND POLICY</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="infos-title">NAVIGATION</h4>
+          <ul class="info-list">
+            <li><a>HOME</a></li>
+            <li><a>PRODUCTS</a></li>
+          </ul>
+        </div>
+      </section>
+      <form id="footer-form">
+        <h4>NEWSLETTER</h4>
+        <label for="email-user"
+          >SIGN UP FOR EXCLUSIVE OFFERS, ORIGINAL STORIES, EVENTS AND
+          MORE.</label
+        >
+        <input id="email-user" type="email" name="email-user" />
+        <button type="button">Sign up</button>
+      </form>
+    </footer>
+    <div id="copy-container"><small>&copy; 2026 Fashion Store</small></div>
+  </body>
+</html>

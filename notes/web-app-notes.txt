@@ -1,0 +1,65 @@
+///////////////////////////////////////////////////////////////////
+
+Home page
+
+--------------------------------------------
+                    Logo
+--------------------------------------------
+                NAVBAR
+            HOME      PRODUCTS
+--------------------------------------------
+                Banner image
+            Dress the Moment
+    From golden hour to possible, find the look that fits.
+            Shop the collection
+--------------------------------------------
+                MAIN
+3 X 3 Products ( Title, price )
+--------------------------------------------
+                    FOOTER
+NEWSLETTER ( FORM ) ( SIGN UP FOR EXCLUSIVE OFFERS, ORIGINAL STORIES, EVENTS AND MORE. Enter email / Sign up )
+MENU ( NEW RELEASES, FOOTWEAR, ACCESSORIES, SHOP ALL )
+HELP ( SEARCH, CONTACT US, TERM OF SERVICE, REFUND POLICY )
+NAVIGATION ( HOME, PRODUCTS )
+Copyright symbol 2026 Fashion Store
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Product page
+
+---------------------------------------------
+                    LOGO
+---------------------------------------------
+                NAVBAR
+            HOME    PRODUCTS
+---------------------------------------------
+                MAIN
+3 X 3 Products ( Title, price )
+---------------------------------------------
+                   FOOTER
+NEWSLETTER ( FORM ) ( SIGN UP FOR EXCLUSIVE OFFERS, ORIGINAL STORIES, EVENTS AND MORE. Enter email / Sign up )
+MENU ( NEW RELEASES, FOOTWEAR, ACCESSORIES, SHOP ALL )
+HELP ( SEARCH, CONTACT US, TERM OF SERVICE, REFUND POLICY )
+NAVIGATION ( HOME, PRODUCTS )
+Copyright symbol 2026 Fashion Store
+
+/////////////////////////////////////////////////////////////////////
+
+banner-image-1
+Headline => Small Details, Big Style
+Subtext => Bags, tees, tops and more. Complete your look with this season's everyday essentials.
+Button => Shop Now
+
+banner-image-2
+Title => Golden Hour Linen
+Paragraph => Made for slow evenings and warm sunsets. This lightweight white linen shirt has a soft, textured weave and relaxed rolled sleeves, so it stays comfortable and looks effortless. Pair it with round retro sunglasses and you have a laid-back summer look that works from the city bridge to the beach bar.
+
+banner-image-3
+Title => Poolside Black
+Paragraph => Keep it simple, keep it bold. This black twist-front bandeau bikini with gold ring details is a swimwear classic with a modern touch. Add a graphic beach towel and a pair of tinted aviators, and you are ready for every sunny day by the pool.
+
+banner-image
+Title => Vintage Finds
+Paragraph => Every piece has a story. Browse our curated collection of one-of-a-kind vintage clothing and accessories, from cozy cable-knit cardigans to retro bags and unique details you will not find anywhere else. Choose second-hand, stand out from the crowd, and make sustainable fashion your signature style.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

@@ -59,4 +59,4 @@ Fashion-Store/
 2. Άνοιξε το φάκελο στο VS Code.
 3. Εγκατάστησε την επέκταση **Live Server**.
 4. Κάνε δεξί κλικ στο `index.html` και διάλεξε **Open with Live Server**.
-5. Η σελίδα ανοίγει στη διεύθυνση `http://127.0.0.1:5500/`.
+5. Η σελίδα ανοίγει στη διεύθυνση `https://theodor-gif.github.io/E-Commerce-App-Greek/`.
